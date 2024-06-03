@@ -1,0 +1,107 @@
+:root {
+    --main-color: #17694F;
+    --sec-color : #39AF79;
+    --third-color : #6AC39B;
+    --fourth-color : #c8d5d0;
+}
+
+body {
+    background-color: #17694f1e;
+    color: var(--main-color);
+    height: 100vh;
+
+}
+
+
+.search-box {
+    display: flex;
+    border: 1px solid #ffffffb3;
+    padding: 5px;
+    gap: 2px;
+    border-radius: 7px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid var(--main-color);
+
+
+    
+}
+
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }
+  
+
+  .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+    border: none;
+  }
+
+
+  .amount-txt{
+    letter-spacing: -0.5px;
+  }
+
+  .amount{
+    letter-spacing: 0px;
+  }
+
+  .MuiChartsLegend-series{
+    display: none;
+  }
+
+
+
+.client-chart::-webkit-scrollbar {
+    width: 1px;
+    height: 2px;
+
+  }
+  
+  .client-chart::-webkit-scrollbar-track {
+    background: #ffffff00; 
+    
+  }
+  
+  .client-chart::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 2px;
+    
+  }
+
+  .nav-link {
+    display: flex;
+    gap: 12px; /* Adjust gap for better spacing */
+    justify-content: start; /* Corrected property */
+    width: 100%; /* Ensure full width */
+    padding: 10px 30px;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffffc7;
+    border-left: 1px solid transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, border-left 0.3s ease;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .nav-link.active {
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #ffffff2c;
+    border-left: 8px solid #ffffff;
+  }
+  
+
+  .react-datepicker__input-container input{
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .react-datepicker__day--selected{
+    background-color: #17694F;
+    display: none;
+  }

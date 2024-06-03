@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+  --main-color: #17694F;
+  --sec-color: #39AF79;
+  --third-color: #6AC39B;
+  --fourth-color: #cde6da;
+}
+
+
+
+*{
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.css-fso5qs-MuiResponsiveChart-container{
+  display: none;
+}
